@@ -3,8 +3,13 @@ Russia Phone Parser
 
 Detect region and phone type by phone number.
 
-Usage
------
+Install
+-------
+
+    composer require gupalo/ru-phone-parser
+
+Use
+---
 
     $phone = RuPhone::create('3013042350');
     print_r([
